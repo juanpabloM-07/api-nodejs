@@ -9,9 +9,9 @@ POST http://localhost:3000/books HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Caracortada",
-    "author": "Diego Villa",
-    "year": 2024
+    "name": "Casino",
+    "author": "Luis Castaño",
+    "year": 2023
 }
 
 ### Ruta PUT para actualizar un libro existente
