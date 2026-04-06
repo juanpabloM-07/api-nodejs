@@ -19,7 +19,7 @@ PUT http://localhost:3000/books/3 HTTP/1.1
 Content-Type: application/json
 
 {
-    "author": Camila Montañez
+    "author": Camila Arboleda
 }
 
 ### Ruta para eliminar un dato por su ID
