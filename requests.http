@@ -23,4 +23,4 @@ Content-Type: application/json
 }
 
 ### Eliminar por id
-DELETE http://localhost:3000/books/9 HTTP/1.1
+DELETE http://localhost:3000/books/12 HTTP/1.1
