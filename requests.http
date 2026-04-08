@@ -4,17 +4,17 @@ GET http://localhost:3000/books HTTP/1.1
 ### END point para consultar por el id del libro
 GET http://127.0.0.1:3000/books/2 HTTP/1.1
 
-### Crear el end point para insertar datos al json
+### Crear por id y los valores que se desean crear
 POST http://localhost:3000/books HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Casino",
-    "author": "Luis Castaño",
-    "year": 2023
+    "name": "Caracortada",
+    "author": "Diego Villa",
+    "year": 2024
 }
 
-### Ruta PUT para actualizar un libro existente
+### Actualizar por id y el valor que se desea actualizar
 PUT http://localhost:3000/books/3 HTTP/1.1
 Content-Type: application/json
 
@@ -22,5 +22,5 @@ Content-Type: application/json
     "author": "Camila Arboleda"
 }
 
-### Ruta para eliminar un dato por su ID
-DELETE http://localhost:3000/books/7 HTTP/1.1
+### Eliminar por id
+DELETE http://localhost:3000/books/9 HTTP/1.1
